@@ -144,12 +144,12 @@ export default function BlogPostClientPage({ params }: { params: { id: string } 
     dateModified: article.date.toISOString(),
     author: {
       "@type": "Person",
-      name: "DevName",
+      name: "Ahmed Faraz",
       url: "https://gopherz.online/about",
     },
     publisher: {
       "@type": "Person",
-      name: "DevName",
+      name: "Ahmed Faraz",
       logo: {
         "@type": "ImageObject",
         url: "https://gopherz.online/logo.png",
